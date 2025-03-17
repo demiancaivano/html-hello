@@ -1,0 +1,57 @@
+
+h1 {
+    background: white;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+    height: 50px;
+    align-content: center;
+    margin-left: -50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+body {
+    background: lightgrey;
+    justify-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    position: relative;
+    width: 500px;
+   }
+
+.photohead {
+    background: white;
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.phototittle {
+    font-weight: bold;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.photodate {
+    padding: 15px;
+    color: rgb(174, 172, 172);
+}
+
+.photofoot {
+    background: white;
+    width: 500px;
+    height: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.container img {
+    width: 500px
+}
